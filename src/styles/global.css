@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+
+@theme {
+
+    --color-primary: #2A1A0E;
+    --color-secondary: #9D6638;
+    --color-accent: #b9661d;
+
+    --color-background: #f8f4f1;
+    --color-text: #181410;
+
+    /* Dark Variant */
+
+    --color-primary-dark: #2b30bf;
+    --color-secondary-dark: #10137a;
+    --color-accent-dark: #090fae;
+
+    --color-background-dark: #04040b;
+    --color-text-dark: #e7e7f3;
+
+    --font-sans: "Google Sans"
+
+}
+
+@font-face{
+    font-family: "Raleway";
+    src: url("/fonts/Raleway-VariableFont_wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Inter";
+    src: url("/fonts/Inter-VariableFont_opsz,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Google Sans";
+    src: url("/fonts/GoogleSans-VariableFont_GRAD,opsz,wght.ttf") format("truetype");
+    font-weight: 100 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Bebas Neue";
+    src: url("/fonts/BebasNeue-Regular.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}

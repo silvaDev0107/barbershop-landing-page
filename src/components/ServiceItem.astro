@@ -1,0 +1,13 @@
+---
+const { id, name, price } = Astro.props
+---
+
+<div class="flex justify-between border-b border-b-gray-300 py-6 px-2">
+    <div class="separator flex gap-3 items-center">
+        <span class="text-secondary font-semibold text-lg">[ {id} ]</span>
+        <p class="text-base">{name}</p>
+    </div>
+
+    <p class="font-semibold">$COP {price}</p>
+
+</div>

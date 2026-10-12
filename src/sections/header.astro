@@ -1,0 +1,31 @@
+---
+import Navbar from "./navbar.astro";
+import { Image } from "astro:assets";
+import Logo from "../assets/images/logo.svg"
+---
+
+<header class="header px-20 py-4 w-full flex items-center justify-between backdrop-blur-1xl">
+    <div class="flex flex-col items-center">
+        <span class="logo">TOPMAN</span>
+        <span class="text">BARBERSHOP</span>
+    </div>
+    <Navbar/>
+</header>
+
+<style>
+    .logo {
+        font-family: 'Bebas Neue';
+        font-size: 24;
+        letter-spacing: 8;
+        border: 1px solid #fff;
+        text-align: center;
+        width: fit-content;
+        padding: 0px 12px;
+    }
+
+    .text {
+        font-size: 14px;
+        font-family: "Bebas Neue";
+        letter-spacing: 2;
+    }
+</style>

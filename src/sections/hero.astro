@@ -1,0 +1,33 @@
+---
+import { Image } from 'astro:assets';
+import heroImage from '../assets/images/hero.jpg';
+---
+
+<main class="max-w-300 mx-auto absolute bottom-30 left-20">
+    <section class="hero">
+        <div class="hero__content">
+            <h1 class="hero__title text-7xl">Visitanos para que salgas con tu mejor versión</h1>
+            <p class="hero__description text-lg">No te pierdas la oportunidad de descrubir tu mejor imagen</p>
+        </div>
+        <div class="hero__actions flex gap-3 mt-3">
+            <a
+                href=""
+                class="py-2 px-3 border border-white text-dark font-semibold transition-transform duration-200 ease-out hover:-translate-y-0.5"
+            >
+
+                VER SERVICIOS
+            </a>
+
+            <a href=""
+                class="py-2 px-3 border border-white text-dark font-semibold transition-transform duration-200 ease-out hover:-translate-y-0.5">
+                AGENTA TU CITA
+            </a>
+        </div>
+        <!-- <Image
+            src={heroImage}
+            alt="Professional barber cutting hair"
+            width={1200}
+            height={800}
+        /> -->
+    </section>
+</main>

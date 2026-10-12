@@ -1,0 +1,32 @@
+---
+import Title from '../components/Title.astro';
+import Section from '../components/Section.astro';
+import SubTitle from '../components/SubTitle.astro';
+import { Image } from 'astro:assets';
+import ChairBarber from '../assets/images/chair-barber.jpg';
+---
+
+<Section class="bg-primary text-text-dark">
+    <Title>SOBRE NOSOTROS</Title>
+
+    <div class="flex gap-2 items-center mt-10">
+        <Image
+            width={400}
+            height={600}
+            src={ChairBarber}
+            alt={'barbershop-interior'}
+            class="rounded-sm"
+        />
+        <div class="content">
+            <SubTitle class="mt-7">Tu estilo, nuestro oficio</SubTitle>
+            <p class="text-lg">
+                En nuestra barbería, creemos que un buen corte es mucho más que una cuestión de
+                estilo: es una forma de expresar tu personalidad. Combinamos técnicas clásicas con
+                tendencias modernas para ofrecerte una experiencia única, cuidando cada detalle y
+                garantizando resultados que reflejen quién eres. Nuestro compromiso es brindarte un
+                espacio donde la calidad, la confianza y el buen servicio se encuentren para que
+                siempre salgas con tu mejor versión.
+            </p>
+        </div>
+    </div>
+</Section>
